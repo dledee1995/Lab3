@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/detail1"
+        android:layout_height="wrap_content" android:text="HEY" android:layout_marginTop="-40dp" android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/detail2"
+        android:layout_height="wrap_content" android:text="HEY" android:layout_marginTop="30dp" android:textSize="30dp"/>
+
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/smartImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
